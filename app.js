@@ -30,7 +30,7 @@ app.post("/", function(req, res) {
 			res.write("<img src="+icon+"></img><br>");
 			res.write('<form action="/index" method="POST"><button class="btn btn-lg btn-warning" type="submit">Chose Different City</button></form>');
 			res.send();
-			//console.log("\n"+data);
+			console.log("\n"+data);
 		});
 	});
 });
